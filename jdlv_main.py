@@ -3,7 +3,6 @@
 
 """
 
-
 import sys
 
 import PyQt5
@@ -12,7 +11,7 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import QCoreApplication, QObject, QRunnable, \
     QThread, QThreadPool, pyqtSignal
-from jdlv_my_tools import *
+
 #from jdlv_vue_fromUi import *
 #from jdlv_model import *
 from jdlv_vue import *

@@ -2,13 +2,14 @@
 """
 
 """
+
 from os import listdir
 from os.path import isfile, join
 import random
 import json
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import * 
-from jdlv_my_tools import *
+
 from jdlv_data import * 
 from jdlv_model import * 
 

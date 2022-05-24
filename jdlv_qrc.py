@@ -4,9 +4,10 @@
 #
 # Created by: The Resource Compiler for PyQt5 (Qt v5.15.1)
 #
-# WARNING! All changes made in this file will be lo
+# WARNING! All changes made in this file will be lost!
+
 from PyQt5 import QtCore
-from jdlv_my_tools import *
+
 qt_resource_data = b"\
 \x00\x00\xac\x16\
 \x89\

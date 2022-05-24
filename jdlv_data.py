@@ -1,6 +1,6 @@
 import os, sys
 import sys
-from jdlv_my_tools import *
+
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtWidgets import *
 
@@ -26,7 +26,7 @@ death_status = 0
 death_color = 'white'
 death_brush = QtGui.QBrush (QtGui.QColor (death_color))
 
-colors = ["red", "blue", "yellow", "pink", "green", "black", "white", "pink"]
+colors = ["red", "blue", "yellow", "pink", "green", "black", "white"]
 brushes = {}
 for color in colors:
     brushes [color] = QtGui.QBrush (QtGui.QColor (color))

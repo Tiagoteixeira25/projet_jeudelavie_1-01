@@ -1,6 +1,7 @@
-# -*- coding: utf-8 -*-
+# -*- coding:utf-8 -*-
+"""
 
-
+"""
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtWidgets import *
 
@@ -58,13 +59,13 @@ class Vue (QtWidgets.QWidget):
                 item = QtWidgets.QTableWidgetItem ()
                 self.ui.tablew_grid.setItem (i, j, item)
 
-    def update (self,grid):
+    def update (self, grid):
         for i in range (len (grid.cases)):
             for j in range (len (grid.cases)):
                 color = grid.cases [i] [j] ['c']
                 brush = brushes [color]
-                if color == life_color:
-                     brush = brushes [colors]
-                else:
-                     brush = death_brush
+                # if color == life_color:
+                #     brush = brushes [color]
+                # else:
+                #     brush = death_brush
                 set_tablew_item_color (self.ui.tablew_grid, i, j, brush)

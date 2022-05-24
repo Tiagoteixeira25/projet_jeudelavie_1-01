@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
 
+"""
 import os
 import sys
 import time
@@ -10,7 +12,7 @@ from PyQt5.QtCore import QObject, QThread, pyqtSignal
 #from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 
-from jdlv_my_tools import *
+
 from jdlv_vue import *
 from jdlv_vue_fromUi import *
 #from jdlv_model import *
@@ -404,4 +406,6 @@ class Ctrl_vue ():
                     self.second_case_for_erasing = None
                     self.is_erasing = False
         self.vue.update (self.vue.grid)
+
+        
     
