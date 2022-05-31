@@ -554,11 +554,11 @@ def apply_rules (grid, compteur):
     if compteur % 1 == 0:
         print ("COMPTEUR % 20  is  0")
         next_grid = \
-            make_serpent (grid, 10, compteur +2, color)
+            make_serpent (grid, 10, compteur+2 , color)
         next_grid = \
             make_pomme (grid, 10, compteur, color)
             # apply_game_of_life_rules(grid)  
-        time.sleep (0.5)
+        time.sleep (0.3)
     else:
         print ("COMPTEUR % 11 is NOT 0")
         time.sleep (0.1)
