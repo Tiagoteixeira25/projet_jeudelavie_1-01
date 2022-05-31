@@ -26,16 +26,15 @@ death_status = 0
 death_color = 'white'
 death_brush = QtGui.QBrush (QtGui.QColor (death_color))
 
-color1 = "#F44336" #rouge
+color1 = "#8B0000" #rouge
 color2 = "#4169E1" #bleu
-color3 = "FDD835" #jaune
-color4 = "#FFC0CB"#rose
+color3 = "#FF0000"#rouge clair
 color5 = "#90EE90" #vert
 color6 = "black"
 color7 = "white"
 color8 ="#582900"#marron
 revive_color = "black"
-colors = ["#F44336", "#4169E1", "FDD835" , "#FFC0CB", "#90EE90", "black", "white","#582900"]
+colors = ["#8B0000", "#4169E1","#FF0000",  "#90EE90", "black", "white","#582900"]
 brushes = {}
 for color in colors:
     brushes [color] = QtGui.QBrush (QtGui.QColor (color))
